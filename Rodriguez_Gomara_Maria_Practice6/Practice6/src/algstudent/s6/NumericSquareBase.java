@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public abstract class NumericSquareBase {
 	
 	String[][] board;
+	int numberOfNodes;
 	static final int MIN_VALUE = 0;
 	static final int MAX_VALUE = 9;
 	
@@ -98,6 +99,9 @@ public abstract class NumericSquareBase {
 		return null;
 	}
 
+	public int getNumberOfNodes() {
+		return numberOfNodes;
+	}
 	
 
 }

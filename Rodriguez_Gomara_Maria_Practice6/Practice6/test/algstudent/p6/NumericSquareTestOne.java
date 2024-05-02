@@ -32,6 +32,7 @@ public class NumericSquareTestOne {
 							   {"4","3"}};
 			printTable(tableSol,"Solution returned test00");
 			assertArrayEquals(convertNum(numericSquare.getSol()),solOk);
+			System.out.println("Number of nodes %d".formatted(numericSquare.getNumberOfNodes()));
 		}
 		
 	}
@@ -51,6 +52,7 @@ public class NumericSquareTestOne {
 								{"9","7","4"}};
 			printTable(tableSol,"Solution returned test01");
 			assertArrayEquals(convertNum(numericSquare.getSol()),solOk);
+			System.out.println("Number of nodes %d".formatted(numericSquare.getNumberOfNodes()));
 		}
 	}
 	
@@ -69,6 +71,7 @@ public class NumericSquareTestOne {
 					{"3","5","6"}};
 			printTable(tableSol,"Solution returned test02");
 			assertArrayEquals(convertNum(numericSquare.getSol()),solOk);
+			System.out.println("Number of nodes %d".formatted(numericSquare.getNumberOfNodes()));
 		}
 		
 
@@ -90,6 +93,7 @@ public class NumericSquareTestOne {
 					{"0","1","1","0"}};
 			printTable(tableSol,"Solution returned test03");
 			assertArrayEquals(convertNum(numericSquare.getSol()),solOk);
+			System.out.println("Number of nodes %d".formatted(numericSquare.getNumberOfNodes()));
 		}
 		
 		
@@ -112,6 +116,7 @@ public class NumericSquareTestOne {
 
 			printTable(tableSol,"Solution returned test04");
 			assertArrayEquals(convertNum(numericSquare.getSol()),solOk);
+			System.out.println("Number of nodes %d".formatted(numericSquare.getNumberOfNodes()));
 		}
 	}
 	
@@ -132,6 +137,7 @@ public class NumericSquareTestOne {
 					{"5","3","9","5","2"}};
 			printTable(tableSol,"Solution returned test05");
 			assertArrayEquals(convertNum(numericSquare.getSol()),solOk);
+			System.out.println("Number of nodes %d".formatted(numericSquare.getNumberOfNodes()));
 		}
 	}
 	
@@ -153,6 +159,7 @@ public class NumericSquareTestOne {
 
 			printTable(tableSol,"Solution returned test06");
 			assertArrayEquals(convertNum(numericSquare.getSol()),solOk);
+			System.out.println("Number of nodes %d".formatted(numericSquare.getNumberOfNodes()));
 		}
 		
 	}
@@ -175,6 +182,7 @@ public class NumericSquareTestOne {
 
 			printTable(tableSol,"Solution returned test07");
 			assertArrayEquals(convertNum(numericSquare.getSol()),solOk);
+			System.out.println("Number of nodes %d".formatted(numericSquare.getNumberOfNodes()));
 		}
 	}
 

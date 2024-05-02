@@ -21,6 +21,7 @@ public class NumericSquareAll extends NumericSquareBase {
         int col = emptyCell[1];
         
         for (int num = MIN_VALUE; num <= MAX_VALUE; num++) {
+        	numberOfNodes++;
         	if (isValidMove(board, row, col, num)) {
                 board[row][col] = String.valueOf(num);
 

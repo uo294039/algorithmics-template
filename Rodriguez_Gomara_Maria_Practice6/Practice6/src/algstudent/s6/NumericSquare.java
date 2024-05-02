@@ -5,7 +5,7 @@ public class NumericSquare extends NumericSquareBase {
 		super(board);
 	}
 	@Override
-	public  void backtracking() throws SolutionException{ 
+	public void backtracking() throws SolutionException{ 
 		int[] emptyCell = findEmptyCell(board);
         if (emptyCell == null) {
             throw new SolutionException();
@@ -15,6 +15,7 @@ public class NumericSquare extends NumericSquareBase {
         int col = emptyCell[1];
         
         for (int num = MIN_VALUE; num <= MAX_VALUE; num++) {
+        	numberOfNodes++;
         	if (isValidMove(board, row, col, num)) {
                 board[row][col] = String.valueOf(num);
 
